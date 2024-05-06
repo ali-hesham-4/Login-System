@@ -1,0 +1,81 @@
+/* G L O B A L    S T Y L I N G */
+
+body{
+    background-color: #24353f;
+}
+
+h1,h2{
+    color: #17a2b8;
+}
+
+.text-successs {
+    color: #28a745;
+}
+
+.min-vh-75{
+    height: 75vh;
+}
+
+/* S T A R T    S I G N U P */
+
+
+.signUp-card{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+/* E N D    S I G N U P */
+
+
+
+/* S T A R T    F O R M */
+
+form input.form-control{
+    background-color: transparent;
+    border: 1px solid #ced4da;
+    color: white;
+    box-shadow: 0 0 0 0 transparent;
+}
+
+form input.form-control:focus {
+    color: white;
+    background-color: transparent;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+
+form input.form-control::placeholder {
+    color: rgb(177, 172, 172);
+}
+
+form button.btn:hover{
+    color: white;
+}
+
+form P a{
+    text-decoration: none;
+}
+
+form P a:hover{
+    text-decoration: underline;
+}
+
+/* E N D     F O R M */
+
+/* S T A R T         W E L C O M E     P A G E  */
+header{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1)
+}
+
+.btn-outline-warning {
+    color: rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-color: #ffc107;
+    }
+.btn-outline-warning:hover{
+    color: white;
+}
+
+/* E N D         W E L C O M E     P A G E */
